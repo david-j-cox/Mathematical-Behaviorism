@@ -67,7 +67,7 @@ You can write citations, too. For example, we are using the **bookdown** package
 
 ## Hebbian Learning Rule
 
-<!--chapter:end:02-learning-neural-level.Rmd-->
+<!--chapter:end:02-individual-neurons.Rmd-->
 
 # Aggregating Neural Events
 
@@ -82,11 +82,8 @@ You can write citations, too. For example, we are using the **bookdown** package
 ## Stimulus Discrimination
 
 
-We describe our methods in this chapter.
-
+## Boilerplate template to keep while figuring out formatting
 Math can be added in body using usual syntax like this 
-
-## math example
 
 $p$ is unknown but expected to be around 1/3. Standard error will be approximated
 
@@ -119,13 +116,21 @@ Some _significant_ applications are demonstrated in this chapter.
 
 ### Pearce-Hall
 
+## Behavioral Momentum
+
 ## Matching Equations
 
 ## Discounting Equations
 
 ## Demand Equations
 
-<!--chapter:end:04-learning-behavioral-level.Rmd-->
+## Carrying Experiences Through Time
+### Temporal Weighting Rule
+
+## Combining Models
+### Resurgence as Choice
+
+<!--chapter:end:04-individual-behaviors.Rmd-->
 
 # Aggregating Individual Behaviors
 
@@ -137,7 +142,7 @@ Some _significant_ applications are demonstrated in this chapter.
 
 ## A-Learning
 
-<!--chapter:end:05-aggregating-behavior-events.Rmd-->
+<!--chapter:end:05-aggregating-individual-behaviors.Rmd-->
 
 # Group Behavior
 
@@ -156,7 +161,7 @@ Some _significant_ applications are demonstrated in this chapter.
 ### Swarm Dynamics and Insect-Inspired Models
 
 
-<!--chapter:end:06-learning-group-level.Rmd-->
+<!--chapter:end:06-group-behavior.Rmd-->
 
 # Aggregating Group Behavior
 
@@ -171,7 +176,7 @@ Some _significant_ applications are demonstrated in this chapter.
 
 ### Multispecies eco-evolutionary models
 
-<!--chapter:end:07-aggregating-group-events.Rmd-->
+<!--chapter:end:07-aggregating-group-behavior.Rmd-->
 
 # Final Words
 
