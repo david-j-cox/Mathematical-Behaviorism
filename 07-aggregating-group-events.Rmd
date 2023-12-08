@@ -1,0 +1,12 @@
+# Aggregating Group Behavior
+
+Some _significant_ applications are demonstrated in this chapter.
+
+## Static Models
+
+## Dynamic Models
+### Dynamic state models
+
+### Diffusive and nondiffusive population models
+
+### Multispecies eco-evolutionary models
