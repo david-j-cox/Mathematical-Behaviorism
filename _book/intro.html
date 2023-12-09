@@ -173,10 +173,11 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="4.1" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#neural-networks-modeling-choice"><i class="fa fa-check"></i><b>4.1</b> Neural Networks Modeling Choice</a></li>
 <li class="chapter" data-level="4.2" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#drift-diffusion-models"><i class="fa fa-check"></i><b>4.2</b> Drift-Diffusion Models</a></li>
-<li class="chapter" data-level="4.3" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#q-learning-algorithm"><i class="fa fa-check"></i><b>4.3</b> Q-Learning Algorithm</a></li>
-<li class="chapter" data-level="4.4" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#interval-timing-models"><i class="fa fa-check"></i><b>4.4</b> Interval Timing Models</a></li>
-<li class="chapter" data-level="4.5" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#stimulus-discrimination"><i class="fa fa-check"></i><b>4.5</b> Stimulus Discrimination</a></li>
-<li class="chapter" data-level="4.6" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#boilerplate-template-to-keep-while-figuring-out-formatting"><i class="fa fa-check"></i><b>4.6</b> Boilerplate template to keep while figuring out formatting</a></li>
+<li class="chapter" data-level="4.3" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#q-learning"><i class="fa fa-check"></i><b>4.3</b> Q-Learning</a></li>
+<li class="chapter" data-level="4.4" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#temporal-difference"><i class="fa fa-check"></i><b>4.4</b> Temporal-Difference</a></li>
+<li class="chapter" data-level="4.5" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#interval-timing-models"><i class="fa fa-check"></i><b>4.5</b> Interval Timing Models</a></li>
+<li class="chapter" data-level="4.6" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#stimulus-discrimination"><i class="fa fa-check"></i><b>4.6</b> Stimulus Discrimination</a></li>
+<li class="chapter" data-level="4.7" data-path="aggregating-neural-events.html"><a href="aggregating-neural-events.html#boilerplate-template-to-keep-while-figuring-out-formatting"><i class="fa fa-check"></i><b>4.7</b> Boilerplate template to keep while figuring out formatting</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="individual-behavior.html"><a href="individual-behavior.html"><i class="fa fa-check"></i><b>5</b> Individual Behavior</a>
 <ul>
@@ -254,10 +255,18 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="intro" class="section level1 hasAnchor" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Introduction: Models and Math<a href="intro.html#intro" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Mathematical models are practically used across all sciences to describe and predict the phenomena of which that science focuses on. This book catalogs and describes operant and respondent models of biological organismic behavior-environment relations. The function of this book is to catalog, describe, and attempt to begin a synthesis of mathematical models of operant and respondent behavior, and how they aggregate up from neural activity or up into social behavior.</p>
+<p><strong>How This “Book” Works</strong></p>
+<p>This book also attempts to take a more modern approach to book writing. Historically, creating and sharing books required an author (or authors) to generate a completed project, send it off to a publisher, who would then distribute printed copies of the book. The Internet, however, allows us to rethink how we engage in information sharing as a scientific community. This book aims to take advantage of modern technology and information sharing to re-imagine what an academic, scholarly book might be. We do this in a few ways.</p>
+<p>First, the book is dynamic. What is great about Wikipedia, online encyclopedias (e.g., <span class="citation">(<a href="#ref-StanfordEncylopediaPhilosophy2023"><strong>StanfordEncylopediaPhilosophy2023?</strong></a>)</span>)</p>
+<p>this book is more like a peer-reviewed Wiki than a static</p>
+<p>bit unique in that it is more like a community created Wiki as opposed to a one-off, stand-alone book. Though there is a single editor, anyone in the community can contribute as much or as little</p>
+<div id="boilerplate-code-for-generating-figures-and-tables-we-want-to-keep-around-while-learning." class="section level4 hasAnchor" number="2.0.0.1">
+<h4><span class="header-section-number">2.0.0.1</span> Boilerplate code for generating figures and tables we want to keep around while learning.<a href="intro.html#boilerplate-code-for-generating-figures-and-tables-we-want-to-keep-around-while-learning." class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter <a href="intro.html#intro">2</a>. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter <a href="#methods"><strong>??</strong></a>.</p>
 <p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="intro.html#cb2-1" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))</span>
-<span id="cb2-2"><a href="intro.html#cb2-2" tabindex="-1"></a><span class="fu">plot</span>(pressure, <span class="at">type =</span> <span class="st">&#39;b&#39;</span>, <span class="at">pch =</span> <span class="dv">19</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="intro.html#cb1-1" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))</span>
+<span id="cb1-2"><a href="intro.html#cb1-2" tabindex="-1"></a><span class="fu">plot</span>(pressure, <span class="at">type =</span> <span class="st">&#39;b&#39;</span>, <span class="at">pch =</span> <span class="dv">19</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:nice-fig"></span>
 <img src="mathematical-behaviorism_files/figure-html/nice-fig-1.png" alt="Here is a nice figure!" width="80%" />
 <p class="caption">
@@ -265,10 +274,10 @@ Figure 2.1: Here is a nice figure!
 </p>
 </div>
 <p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="intro.html#fig:nice-fig">2.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="intro.html#tab:nice-tab">2.1</a>.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="intro.html#cb3-1" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(</span>
-<span id="cb3-2"><a href="intro.html#cb3-2" tabindex="-1"></a>  <span class="fu">head</span>(iris, <span class="dv">20</span>), <span class="at">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</span>
-<span id="cb3-3"><a href="intro.html#cb3-3" tabindex="-1"></a>  <span class="at">booktabs =</span> <span class="cn">TRUE</span></span>
-<span id="cb3-4"><a href="intro.html#cb3-4" tabindex="-1"></a>)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="intro.html#cb2-1" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(</span>
+<span id="cb2-2"><a href="intro.html#cb2-2" tabindex="-1"></a>  <span class="fu">head</span>(iris, <span class="dv">20</span>), <span class="at">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</span>
+<span id="cb2-3"><a href="intro.html#cb2-3" tabindex="-1"></a>  <span class="at">booktabs =</span> <span class="cn">TRUE</span></span>
+<span id="cb2-4"><a href="intro.html#cb2-4" tabindex="-1"></a>)</span></code></pre></div>
 <table>
 <caption><span id="tab:nice-tab">Table 2.1: </span>Here is a nice table!</caption>
 <thead>
@@ -426,6 +435,7 @@ Figure 2.1: Here is a nice figure!
 <p>You can write citations, too. For example, we are using the <strong>bookdown</strong> package <span class="citation">(<a href="#ref-R-bookdown">Xie 2023</a>)</span> in this sample book, which was built on top of R Markdown and <strong>knitr</strong> <span class="citation">(<a href="#ref-xie2015">Xie 2015</a>)</span>.</p>
 
 </div>
+</div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-xie2015" class="csl-entry">
@@ -495,20 +505,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

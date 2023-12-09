@@ -1,5 +1,21 @@
 # Introduction: Models and Math {#intro}
 
+Mathematical models are practically used across all sciences to describe and predict the phenomena of which that science focuses on. This book catalogs and describes operant and respondent models of biological organismic behavior-environment relations. The function of this book is to catalog, describe, and attempt to begin a synthesis of mathematical models of operant and respondent behavior, and how they aggregate up from neural activity or up into social behavior. 
+
+
+**How This "Book" Works**
+
+This book also attempts to take a more modern approach to book writing. Historically, creating and sharing books required an author (or authors) to generate a completed project, send it off to a publisher, who would then distribute printed copies of the book. The Internet, however, allows us to rethink how we engage in information sharing as a scientific community. This book aims to take advantage of modern technology and information sharing to re-imagine what an academic, scholarly book might be. We do this in a few ways. 
+
+First, the book is dynamic. What is great about Wikipedia, online encyclopedias (e.g., [@StanfordEncylopediaPhilosophy2023]) 
+
+this book is more like a peer-reviewed Wiki than a static 
+
+bit unique in that it is more like a community created Wiki as opposed to a one-off, stand-alone book. Though there is a single editor, anyone in the community can contribute as much or as little 
+
+
+
+#### Boilerplate code for generating figures and tables we want to keep around while learning. 
 You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 
 Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
