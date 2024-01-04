@@ -48,3 +48,15 @@ diffusive-and-nondiffusive-population-models
 multispecies-eco-evolutionary-models
 final-words
 boilerplate-code-for-generating-figures-and-tables-we-want-to-keep-around-while-learning.
+eq:exponential-discounting
+hyperbolic-model-of-reinforcer-value
+eq:hyperbolic-discounting
+exponential-model
+hyperbolic-model
+eq:hyperboloid-discounting-green-myerson
+hyperboloid-models
+eq:hyperboloid-discounting-rachlin
+multiple-reinforcer-dimensions
+additive
+multiplicative
+discounting-sensitivity-models

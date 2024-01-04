@@ -7,7 +7,15 @@ h3:pearce-hall Pearce-Hall
 h2:behavioral-momentum Behavioral Momentum
 h2:matching-equations Matching Equations
 h2:discounting-equations Discounting Equations
+h3:exponential-model Exponential Model
+h3:hyperbolic-model Hyperbolic Model
+h3:discounting-sensitivity-models Discounting + Sensitivity Models
+h4:hyperboloid-models Hyperboloid Models
+h3:multiple-reinforcer-dimensions Multiple Reinforcer Dimensions
+h4:additive Additive
+h4:multiplicative Multiplicative
 h2:demand-equations Demand Equations
+h2:hyperbolic-model-of-reinforcer-value Hyperbolic Model of Reinforcer Value
 h2:carrying-experiences-through-time Carrying Experiences Through Time
 h3:temporal-weighting-rule Temporal Weighting Rule
 h2:combining-models Combining Models
