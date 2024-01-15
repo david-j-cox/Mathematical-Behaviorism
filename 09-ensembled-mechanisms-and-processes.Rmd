@@ -1,4 +1,4 @@
-# Aggregating Individual Behaviors
+# Ensembled Mechanisms and Processes
 
 Some _significant_ applications are demonstrated in this chapter.
 

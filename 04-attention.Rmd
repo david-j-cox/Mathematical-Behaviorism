@@ -1,0 +1,12 @@
+# Attention
+
+Some _significant_ applications are demonstrated in this chapter.
+
+## Competition to Gain Association Models
+
+## Rescorla-Wagner Model
+
+## Attention Models
+### Mackintosh
+
+### Pearce-Hall

@@ -1,17 +1,4 @@
-# Individual Behavior
-
-Some _significant_ applications are demonstrated in this chapter.
-
-## Competition to Gain Association Models
-
-## Rescorla-Wagner Model
-
-## Attention Models
-### Mackintosh
-
-### Pearce-Hall
-
-## Behavioral Momentum
+# Reinforcer Value and Choice
 
 ## Matching Equations
 
@@ -46,7 +33,6 @@ V = \frac {A}{1+kD^s}
 \end{equation}
 
 
-
 ### Multiple Reinforcer Dimensions
 #### Additive
 
@@ -56,9 +42,3 @@ V = \frac {A}{1+kD^s}
 ## Demand Equations
 
 ## Hyperbolic Model of Reinforcer Value
-
-## Carrying Experiences Through Time
-### Temporal Weighting Rule
-
-## Combining Models
-### Resurgence as Choice

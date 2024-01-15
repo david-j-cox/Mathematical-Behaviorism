@@ -1,0 +1,36 @@
+# Individual Neurons
+
+## Conductance-Based Models
+### The Hodgkin-Huxley Model
+https://en.wikipedia.org/wiki/Hodgkin%E2%80%93Huxley_model
+
+### Hebbian Learning Rule
+https://thedecisionlab.com/reference-guide/neuroscience/hebbian-learning
+
+
+### FitzHugh-Nagumo Model
+https://en.wikipedia.org/wiki/FitzHugh%E2%80%93Nagumo_model
+
+### Morris-Lecar Model
+https://en.wikipedia.org/wiki/Morris%E2%80%93Lecar_model
+
+### Hindmarsh-Rose Model
+https://en.wikipedia.org/wiki/Hindmarsh%E2%80%93Rose_model
+
+### Izhikevich Model
+https://www.izhikevich.org/publications/spikes.htm
+
+### Cable Theory
+https://en.wikipedia.org/wiki/Cable_theory
+
+## Threshold Models
+### Perfect Integrate-and-Fire
+https://en.wikipedia.org/wiki/Biological_neuron_model#Perfect_Integrate-and-fire
+
+### Leaky Integrate-and-Fire
+https://en.wikipedia.org/wiki/Biological_neuron_model#Leaky_integrate-and-fire
+
+### Adaptive Integrate-and-Fire
+https://en.wikipedia.org/wiki/Biological_neuron_model#Adaptive_integrate-and-fire
+
+

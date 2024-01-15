@@ -1,0 +1,3 @@
+# Timing
+
+## Temporal Weighting Rule

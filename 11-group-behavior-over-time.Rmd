@@ -1,4 +1,4 @@
-# Aggregating Group Behavior
+# Group Behavior Over Time
 
 Some _significant_ applications are demonstrated in this chapter.
 

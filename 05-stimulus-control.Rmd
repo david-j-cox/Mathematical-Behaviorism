@@ -1,0 +1,8 @@
+# Stimulus Control
+
+## Generalization and Discrimination
+### Hull-Spence Formulation
+https://link.springer.com/article/10.1007/BF03393872
+
+### Blough (1975) Model
+https://psycnet.apa.org/record/1975-09139-001
